@@ -15,7 +15,7 @@ test -d ~/Pictures || mkdir ~/Pictures
 test -f ~/Pictures/pics.tgz || wget -q -O ~/Pictures/pics.tgz https://zonzorp.net/pics.tgz
 
 # unpack the downloaded tarfile if it is there, then delete the local copy of the tarfile
-test -f ~/Pictures/pics.tgz && tar -xvzf ~/Pictures/pics.tgz && rm ~/Pictures/pics.tgz
+test -f ~/Pictures/pics.tgz && tar -xvzf ~/Pictures/pics.tgz || rm ~/Pictures/pics.tgz
 
 # Make a report on what we have in the Pictures directory
 test -d ~/Pictures && cat <<EOF
