@@ -2,7 +2,6 @@
 #
 # this script generates a report of the files on the system that have the setuid permission bit turned on
 # it is for the lab1 exercise
-
 # Task 1 for the exercise is to modify it to also find and display the setgid files in a second listing
 # The second listing should display after the setuid file list, and be formatted similar to the setuid file list
 

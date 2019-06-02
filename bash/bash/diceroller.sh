@@ -2,7 +2,6 @@
 #
 # this script rolls a pair of six-sided dice
 #
-
 # Improve this script by adding a second line of output showing
 #a roll of 5 six-sided dice
 # Improve this script by adding a third line of output that rolls a
