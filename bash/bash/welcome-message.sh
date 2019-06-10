@@ -1,3 +1,4 @@
+
 #!/bin/bash
 #
 # This script produces the dynamic welcome message
