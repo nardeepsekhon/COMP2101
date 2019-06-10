@@ -2,6 +2,7 @@
 #
 # this script rolls a pair of six-sided dice
 #
+
 # Improve this script by adding a second line of output showing
 #a roll of 5 six-sided dice
 # Improve this script by adding a third line of output that rolls a
@@ -18,7 +19,7 @@ $(( RANDOM % 6 + 1)), $(( RANDOM % 6 + 1 )) rolled
 "
 echo "Second Line"
 echo "
-Rolling...
+Rolling...  q
 $(( RANDOM % 6 + 1)), $(( RANDOM % 6 + 1 )), $(( RANDOM % 6 + 1 )), $(( RANDOM % 6 + 1 )), $(( RANDOM % 6 + 1 )), $(( RANDOM % 6 + 1 )) rolled
 20 sided Rolling
 $(( RANDOM % 20 + 1))
