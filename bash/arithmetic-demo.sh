@@ -16,7 +16,7 @@ sum=$((firstnum + secondnum))
 sub=$((firstnum - secondnum))
 dividend=$((firstnum / secondnum))
 multiplication=$((firstnum * secondnum))
-remainder=$((fistnum % secondnum))
+remainder=$((firstnum % secondnum))
 power=$((firstnum**secondnum))
 fpdividend=$(awk "BEGIN{printf \"%.2f\", $firstnum/$secondnum}")
 
