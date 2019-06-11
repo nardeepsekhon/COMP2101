@@ -8,8 +8,8 @@
 #   - the output should look something like:
 #   - first divided by second gives X with a remainder of Y
 # Improve this script by calculating and displaying the first number raised to the power of the second number
-read -p "Input1? " firstnum
-read -p "Input2? " secondnum
+read -p "First Number please? " firstnum
+read -p "second number please? " secondnum
 #firstnum=5
 #secondnum=2
 sum=$((firstnum + secondnum))
